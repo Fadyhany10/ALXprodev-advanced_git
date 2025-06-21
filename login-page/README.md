@@ -1,16 +1,17 @@
-# 1. Switch to the develop branch
-git checkout develop
+# 🛠️ GitFlow Task: Implement Login Page Scaffold
 
-# 2. Create and switch to a new feature branch
+## Objective:
+Create a new feature branch from `develop`, scaffold a login page directory, and push your work to GitHub.
+
+## Instructions:
+
+1. **Switch to the `develop` branch:**
+   ```bash
+   git checkout develop
 git checkout -b feature/implement-login
-
-# 3. Create the login-page directory and add a README file with placeholder content
 mkdir login-page
 echo "Login Feature Coming soon" > login-page/README.md
-
-# 4. Stage and commit the new files
 git add login-page/README.md
 git commit -m "feat: scaffolding login page"
-
-# 5. Push the new branch to the remote repository
 git push -u origin feature/implement-login
+---
